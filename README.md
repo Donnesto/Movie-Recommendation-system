@@ -1,4 +1,13 @@
 #  Movie Recommendation System
+### Authors: 
+1. George Opondi
+2. Donnah Mwaniki
+3. Vincent Kipnlang'at
+4. Brian Gikonyo
+5. Jimmy Mumo
+6. Cynthia Gitonga
+7. Ian Odhiambo
+8. Jonquil Phelan
 
 ---
 
