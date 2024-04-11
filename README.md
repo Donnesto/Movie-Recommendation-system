@@ -15,6 +15,14 @@
 The objective of this project is to build a movie recommendation system that provides personalized recommendations to users based on their ratings of other movies. The system will utilize machine learning algorithms to analyze user ratings and similarities between movies to generate a list of top 5 movie recommendations for each user.
 
 ---
+## Objectives
+> Develop a customized movie recommendation system using cutting-edge machine learning algorithms.
+
+> Provide personalized movie recommendations for each user based on their preferences and viewing history.
+
+> Enhance user experience and engagement by offering relevant and tailored movie suggestions.
+
+---
 
 
 ## Business understanding
@@ -83,4 +91,46 @@ Action, Adventure, Animation, Children's, Comedy, Crime, Documentary, Drama, Fan
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. https://doi.org/10.1145/2827872
 
 ---
+
+## Visualizations
+
+![alt text](<Images/Count of movies.png>)
+Count of movies by rating
+
+![alt text](<Images/Movie genre distribution.png>)
+Movie genre by distribution
+
+---
+
+## Model Selection
+
+The analysis  tested two main methods for recommending movies: SVD and KNN. SVD was more accurate than KNN, with an error rate of 0.8734 for SVD. To boost SVD's accuracy, it was  fine-tuned its settings using GridSearchCV. After tuning, SVD's accuracy improved to 0.8687, with the best settings being n_factors=50 and reg_all=0.05. Overall, SVD performed better than KNN in predicting movie ratings, especially after fine-tuning.  
+
+---
+
+## Making recommendations
+
+> Integrated user ratings into the SVD model and generated personalized movie recommendations.
+
+> Top 5 recommendations included classics like "The Godfather" and contemporary favorites like "Fight Club."
+
+---
+
+## Recommendations
+
+> The movie recommendation system offers a solution to the challenge of finding personalized movie suggestions.
+
+> Streaming platforms can leverage this system to enhance user experience, engagement, and retention.
+
+> Recommendations for future work include enhancing the system's scalability and exploring more advanced recommendation algorithms.
+
+---
+
+## Conclusion
+
+> In conclusion, this  movie recommendation system demonstrates the power of machine learning in enhancing user experience in the entertainment industry.
+
+> Further exploration of advanced recommendation algorithms and continuous improvement of the system is required  based on user feedback and evolving preferences.
+
+> Implementing such a system can drive customer satisfaction and loyalty, ultimately contributing to the success of streaming platforms in a highly competitive market.
 
