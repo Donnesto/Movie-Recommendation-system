@@ -1,3 +1,4 @@
+The presentation can be viewed [here](https://docs.google.com/presentation/d/10xcC4ei4fgAo8AZ9cFrPkXZPPM0VCTyvypFT7adt2MY/edit?usp=sharing)
 #  Movie Recommendation System
 ### Authors: 
 1. George Opondi
